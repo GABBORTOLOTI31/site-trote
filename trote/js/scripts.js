@@ -5,7 +5,8 @@ function calcular (){
     // recupera o valor da homenagem digitado
     let homenagem = document.getElementById("homenagem").value
     // vamos somar os valores
-    let soma = Number(acaoSocial) + Number(homenagem)
+    let leite = document.getElementById("homenagem").value
+    let soma = Number(acaoSocial) + Number(homenagem) + (2 * Number(leite))
     // devolve o resultado para html
     document.getElementById("soma").innerHTML = soma.toFixed(2)
     
