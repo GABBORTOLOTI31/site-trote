@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center; 
+}
+header{
+background: #28a745;
+color: white;
+/* espaçamento interno de 15px acima e abaixo, e 0px esquerda e direita*/
+padding: 15px 0;
+font-size: 24px;
+border: 1px solid black;
+}
+nav {
+background-color: #649cad;
+padding: 10px;
+display: flex; 
+/*alinhamento na horizontal - espaço entre os links*/ 
+justify-content: space-between;
+/* espaço vertical */
+align-items: center;
+}
+#links-menu {
+    display: flex;
+    gap: 20px
+}
+/* configura o estilo das âncoras que estão dentro do nav*/
+nav a {
+color: white;
+text-decoration: none;
+padding:10px 15px; /* 10px acima 15px abaixo*/
+font-size: 18px;
+background: #005663;/* cor fundo */ 
+border-radius: 5px;/* borda redonda */ 
+}
+nav a:hover {
+    background: #003d82;
+
+}
+img {
+    width: 120px;
+    height:auto;
+    margin-right: 20px; /* espaçamento externo a direita em 20px*/
+    border-radius: 10px;
+
+
+}
+.container{
+    width: 80%;
+    margin: 20px auto; /* 20px em cima-baixo em ralação ao menu e automatico p/ esquerda e a direita*/
+    background: white;
+    /*espaçamento interno nos 4 lados*/
+    padding: 20px;
+    text-align: justify;
+}
+h2 {
+    text-align: center;
+}
+
+ol li {
+    padding-bottom: 10px;
+}
+
+table tr td {
+    padding: 20px;
+}
+
+table {
+    margin: 0 auto; /* espç. externo de 0 acima e abaixo e automat. esq e dir. */
+}
+.laranja {
+    background-color: orange;
+}
+.azul {
+    background-color: blue;
+    
+}
+.preta {
+    background-color: black;
+    color:  white;
+    
+}
+.roxo{
+    background-color: purple;
+}
+.verde{
+    background-color: green;
+}
+.vermelha{
+    background-color: red;
+}
+.azulescuro{
+    background-color: #003d82;
+    color: white;
+    
+}
+
+.campos{
+    margin: 10px;
+}
+
+.corvermelha{
+    color: red;
+}
+
