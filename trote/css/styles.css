@@ -6,7 +6,7 @@ body {
     text-align: center; 
 }
 header{
-background: #28a745;
+background: #8528a7;
 color: white;
 /* espaçamento interno de 15px acima e abaixo, e 0px esquerda e direita*/
 padding: 15px 0;
@@ -14,7 +14,7 @@ font-size: 24px;
 border: 1px solid black;
 }
 nav {
-background-color: #649cad;
+background-color: #ad64a0;
 padding: 10px;
 display: flex; 
 /*alinhamento na horizontal - espaço entre os links*/ 
@@ -32,17 +32,17 @@ color: white;
 text-decoration: none;
 padding:10px 15px; /* 10px acima 15px abaixo*/
 font-size: 18px;
-background: #005663;/* cor fundo */ 
+background: #610063;/* cor fundo */ 
 border-radius: 5px;/* borda redonda */ 
 }
 nav a:hover {
-    background: #003d82;
+    background: #820073;
 
 }
 img {
     width: 120px;
     height:auto;
-    margin-right: 20px; /* espaçamento externo a direita em 20px*/
+    margin-right: 0px; /* espaçamento externo a direita em 20px*/
     border-radius: 10px;
 
 
@@ -53,10 +53,10 @@ img {
     background: white;
     /*espaçamento interno nos 4 lados*/
     padding: 20px;
-    text-align: justify;
+    text-align: left;
 }
 h2 {
-    text-align: center;
+    text-align: left;
 }
 
 ol li {
@@ -72,6 +72,7 @@ table {
 }
 .laranja {
     background-color: orange;
+    color:  white;
 }
 .azul {
     background-color: blue;
@@ -84,12 +85,15 @@ table {
 }
 .roxo{
     background-color: purple;
+    color:  white;
 }
 .verde{
     background-color: green;
+    color:  white;
 }
 .vermelha{
     background-color: red;
+    color:  white;
 }
 .azulescuro{
     background-color: #003d82;
@@ -103,5 +107,24 @@ table {
 
 .corvermelha{
     color: red;
+}
+
+.img-centralizada {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.img-centralizada img {
+    display: block;
+    margin: 0 auto;
+    width: 200px; /* Ajuste o tamanho se quiser */
+    height: auto;
+    border-radius: 10px;
+}
+
+.img-centralizada p {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #333;
 }
 
